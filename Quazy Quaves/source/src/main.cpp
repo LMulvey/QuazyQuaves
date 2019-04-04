@@ -6,10 +6,10 @@
 //  Copyright © 2019 Lee Mulvey. All rights reserved.
 //
 
-#include <iostream>
+#include "game.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main( int argc, char* args[] )
+{
+    Game game;
     return 0;
 }
